@@ -6,6 +6,7 @@ project(cuda_examples
         LANGUAGES CUDA)
 
 
-add_subdirectory(hello_world)
+# add_subdirectory(hello_world)
+add_subdirectory(vector_addition)
 
 
