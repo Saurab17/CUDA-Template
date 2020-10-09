@@ -8,6 +8,7 @@ project(cuda_examples
 
 # add_subdirectory(hello_world)
 # add_subdirectory(vector_addition)
-add_subdirectory(matrix_addition)
+# add_subdirectory(matrix_addition)
+add_subdirectory(matrix_multiplication)
 
 
