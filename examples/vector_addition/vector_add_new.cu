@@ -1,6 +1,12 @@
+// Copyright (c) 2020 Saurabh Yadav
+// 
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 #include <iostream>
 #include <math.h>
 #include <cuda_runtime.h>
+
 // Kernel function to add the elements of two arrays
 __global__
 void add(int n, float *x, float *y)
